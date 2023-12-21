@@ -1,0 +1,35 @@
+{
+  "name": "gif-hub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "firebase": "^9.23.0",
+    "it": "^1.1.1",
+    "next": "^13.5.6",
+    "next-auth": "^4.22.1",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  },
+  "description": "In this technical test, the candidate is required to design and develop a Next.js application that incorporates Firebase Authentication for user login and registration. The application's main feature is a GIF search functionality powered by the GIPHY API. Additionally, the candidate has the option to implement additional tasks, such as marking GIFs as favorites, hot searching, loading animations, and hosting the app on Vercel or GitHub Pages.",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
+}
